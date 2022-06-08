@@ -194,6 +194,7 @@ PRODUCT_PACKAGE_OVERLAYS += \
 
 # RRO Overlays
 PRODUCT_PACKAGES += \
+    PixelLauncherCustomOverlay \
     PixelLauncherIconsOverlay
 
 # TextClassifier
