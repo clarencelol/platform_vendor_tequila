@@ -192,6 +192,10 @@ PRODUCT_PACKAGE_OVERLAYS += \
     vendor/tequila/overlay/common \
     vendor/tequila/overlay/no-rro
 
+# RRO Overlays
+PRODUCT_PACKAGES += \
+    PixelLauncherIconsOverlay
+
 # TextClassifier
 PRODUCT_PACKAGES += \
     libtextclassifier_annotator_en_model \
