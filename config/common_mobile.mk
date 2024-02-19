@@ -5,12 +5,8 @@ $(call inherit-product, vendor/tequila/config/common.mk)
 PRODUCT_PACKAGES += \
     Aperture
 
-# Launcher3
-PRODUCT_PACKAGES += \
-    Launcher3QuickStep
-
 PRODUCT_DEXPREOPT_SPEED_APPS += \
-    Launcher3QuickStep
+    NexusLauncherRelease
 
 # Media
 PRODUCT_SYSTEM_DEFAULT_PROPERTIES += \

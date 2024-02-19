@@ -207,8 +207,7 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     BlackThemeOverlay \
     NavigationBarNoHintOverlay \
-    NetworkStackOverlay \
-    Launcher3Overlay
+    NetworkStackOverlay
 
 # Updater
 ifneq ($(filter OFFICIAL EXPERIMENTAL,$(TEQUILA_BUILDTYPE)),)
